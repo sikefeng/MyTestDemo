@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/govideoplayer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:text="VideoPlayer" />
+
+    <Button
+        android:id="@+id/btnfood"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:text="Food" />
+
+    <com.example.mytestdemo.CompletedView
+        android:id="@+id/tasks_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        tc:circleColor="@color/white"
+        tc:radius="50dip"
+        tc:ringBgColor="@color/whiteBg"
+        tc:ringColor="@color/colorGreen"
+        tc:strokeWidth="10dip" />
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/ellipse">
+
+        <com.example.mytestdemo.RoundProgress
+            android:id="@+id/rp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            app:bgColor="#49ceaa"
+            app:roundColor="@color/colorGreen"
+            app:roundTextColor="#242b30"
+            app:roundTextSize="12sp"
+            app:roundWidth="10dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/ellipse">
+
+            <com.example.mytestdemo.RoundProgress
+                android:id="@+id/roundProgress1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                app:bgColor="@color/whiteBg"
+                app:roundColor="#49ceaa"
+                app:roundTextColor="#242b30"
+                app:roundTextSize="12sp"
+                app:roundWidth="8dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/ellipse">
+
+            <com.example.mytestdemo.RoundProgress
+                android:id="@+id/roundProgress2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                app:bgColor="@color/whiteBg"
+                app:roundColor="#d8872e"
+                app:roundTextColor="#242b30"
+                app:roundTextSize="12sp"
+                app:roundWidth="8dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/ellipse">
+
+            <com.example.mytestdemo.RoundProgress
+                android:id="@+id/roundProgress3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                app:bgColor="@color/whiteBg"
+                app:roundColor="#8aca52"
+                app:roundTextColor="#242b30"
+                app:roundTextSize="12sp"
+                app:roundWidth="8dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/ellipse">
+
+            <com.example.mytestdemo.RoundProgress
+                android:id="@+id/roundProgress4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                app:bgColor="@color/whiteBg"
+                app:roundColor="#cc4b5b"
+                app:roundTextColor="#242b30"
+                app:roundTextSize="12sp"
+                app:roundWidth="8dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

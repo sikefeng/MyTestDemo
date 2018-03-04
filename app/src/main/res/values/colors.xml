@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- 用于背景色 -->
+    <color name="bg_color">#f0f0f0</color>
+    <!-- 主页tab按钮和icon -->
+    <color name="green">#21c67a</color>
+    <!-- 导航栏的背景   黑色 -->
+    <color name="title_bg">#353f49</color>
+    <color name="title_bg_press">#414948</color>
+    <!-- 圆形消息图标  红色 -->
+    <color name="dot_bg">#e84a46</color>
+    <color name="text_red">#ed1e4a</color>
+    <!-- 主页tab文字   浅白 -->
+    <color name="tab_text">#e9e9ea</color>
+    <!-- 搜索框里的文字   浅白 -->
+    <color name="search_text">#878c91</color>
+    <!-- 搜索框的边框   浅白 -->
+    <color name="search_frame">#4e565f</color>
+
+    <!-- 用于导航栏和标签栏上的文字 -->
+    <color name="white">#ffffff</color>
+    <color name="txt_black_dark">#6d6d6d</color>
+    <!-- 用于次要的文字信息 -->
+    <color name="txt_black_light">#646363</color>
+    <color name="txt_black_light1">#b5b5b5</color>
+    <color name="txt_black">#333333</color>
+    <color name="txt_gray">#6d6d6d</color>
+    <!-- 用于分割线   灰色 -->
+    <color name="line_color">#c8c8c8</color>
+    <!-- 用于分割线   浅白色 -->
+    <color name="line_white_color">#acacac</color>
+    <!-- 分割线颜色 -->
+    <color name="dividing_line_color">#d9d8d8</color>
+    <!-- 描边颜色 -->
+    <color name="stroke_color">#cecccc</color>
+    <!-- 绿色按钮点击后的颜色 -->
+    <color name="green_press">#71e0ad</color>
+    <!-- 黑按钮的颜色 -->
+    <color name="btn_black">#330a0a0a</color>
+    <!-- 黑按钮点击后的颜色 -->
+    <color name="btn_black_press">#490a0a0a</color>
+
+    <!-- 扫描颜色 -->
+    <color name="possible_result_points">#c0ffff00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ff000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_frame">#ff4EEE94</color>
+    <!-- #ff0000ff -->
+    <color name="backgroud">#b0000000</color>
+    <color name="title_tv_color">#ffffffff</color>
+    <color name="blue">#1e7fc9</color>
+    <!-- 用于主色点击效果 -->
+    <color name="yellow_light">#f1c879</color>
+    <!-- 小面积使用，用于导航栏、标签栏和突出的文字 -->
+    <color name="black">#272727</color>
+    <color name="black_light">#828282</color>
+    <!-- 透明 -->
+    <color name="transparent">#00ffffff</color>
+    <!-- 半透明 -->
+    <color name="translucent">#e0000000</color>
+    <!-- 主界面背景色 -->
+    <color name="bg_main_page">#f2ede7</color>
+    <color name="bg_main_page_pressed">#eee9e3</color>
+    <color name="bg_btn_gray">#bebdbd</color>
+    <color name="dialog_btn_gray">#a3a3a3</color>
+    <color name="dialog_btn_gray_light">#d5d5d5</color>
+    <color name="red">#f21010</color>
+    <color name="txt_red">#ec0404</color>
+    <color name="bg_green">#000a25</color>
+    <color name="text_green">#00bec7</color>
+    <color name="calendar_cell_bg">#313e4d</color>
+
+    <!-- 输入框白色字体 -->
+    <color name="text_white">#f1f5f8</color>
+    <!-- 绿色按钮 -->
+    <color name="text_btn">#17d3ce</color>
+    <!-- 黑色背景 -->
+    <color name="bg_black">#000a25</color>
+    <color name="text_green_light">#7aadad</color>
+
+    <!-- 绿色字体 -->
+    <color name="text_g">#00fbff</color>
+
+    <color name="circle_color">#61fdff</color>
+    <color name="circle_color_grey">#9f9f9f</color>
+
+    <color name="shoes_color_grey">#898989</color>
+
+<!--kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk-->
+    <color name="whiteBg">#dcdcdc</color>
+    <color name="colorGreen">#8aca52</color>
+
+    <color name="header_bg_common">#323a45</color>
+    <color name="title_txt_color">#f1f1f3</color>
+    <color name="ring_color">#14b9d6</color>
+</resources>
